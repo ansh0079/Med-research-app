@@ -1,0 +1,98 @@
+===============================================================================
+  MEDICAL RESEARCH FINDER - QUICK START GUIDE
+===============================================================================
+
+PROBLEM: Searches showing "no results"?
+CAUSE: Browser security blocks API requests when opening HTML files directly
+SOLUTION: Use the local server (see below)
+
+===============================================================================
+  EASY SETUP (5 seconds)
+===============================================================================
+
+WINDOWS USERS:
+  1. Double-click: START_SERVER.bat
+  2. Browser opens automatically
+  3. Start searching!
+
+MAC/LINUX USERS:
+  1. Double-click: start_server.sh (or run in terminal)
+  2. Browser opens automatically
+  3. Start searching!
+
+ALTERNATIVE (any platform):
+  1. Open terminal/command prompt in this folder
+  2. Type: python run_server.py
+  3. Press Enter
+  4. Browser opens to http://localhost:8000
+
+===============================================================================
+  FILES INCLUDED
+===============================================================================
+
+✓ medical-research-finder-v2.html  - The main application
+✓ run_server.py                    - Python server script
+✓ START_SERVER.bat                 - Windows launcher
+✓ start_server.sh                  - Mac/Linux launcher
+✓ test-api.html                    - Test API connectivity
+✓ README.md                        - Full documentation
+
+===============================================================================
+  FEATURES
+===============================================================================
+
+SEARCH:
+  • PubMed - 30M+ biomedical articles
+  • Cochrane Reviews - Evidence-based systematic reviews
+  • ClinicalTrials.gov - 400K+ clinical studies
+
+FILTERS:
+  • Date ranges (1, 5, 10 years or custom)
+  • Article types (RCT, Meta-Analysis, Reviews, etc.)
+  • Free full-text only
+  • By author or journal
+
+ORGANIZE:
+  • Save articles
+  • Create collections
+  • Export to CSV
+
+AI POWERED:
+  • Generate clinical synopsis with Claude
+  • Requires Anthropic API key (optional)
+  • Get key at: console.anthropic.com
+
+===============================================================================
+  TROUBLESHOOTING
+===============================================================================
+
+Problem: "Python not found"
+Solution: Install from python.org (check "Add to PATH" during install)
+
+Problem: Server won't start
+Solution: Open terminal in THIS folder first, then run the command
+
+Problem: Still no results
+Solution: 
+  1. Open test-api.html to check connectivity
+  2. Check browser console (F12) for error messages
+  3. Make sure you're using the server, not opening HTML directly
+
+Problem: AI Synopsis not working
+Solution: Click Settings → Add your Anthropic API key
+
+===============================================================================
+  SUPPORT
+===============================================================================
+
+Read README.md for comprehensive documentation
+
+Browser console (F12) shows detailed error messages
+
+Check test-api.html to diagnose connection issues
+
+===============================================================================
+
+Ready? Just double-click START_SERVER.bat (Windows) or start_server.sh (Mac)!
+
+===============================================================================
